@@ -14,4 +14,5 @@ function rating(scandals, numScandal, admin){
   totalScandal = scandals * numScandal;
 
   score = score - totalScandal - admin;
+  console.log("Score: " + score);
 }
