@@ -7,7 +7,7 @@ function rating(scandals, numScandal, admin){
   var score;
   var totalScandal;
 
-  // each one starts with a score of 100
+  // each charity starts with a score of 100
   score = 100;
 
   // find the total impact of all their scandals
