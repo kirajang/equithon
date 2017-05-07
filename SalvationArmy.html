@@ -1,0 +1,338 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @kraberry
+ Sign out
+ Watch 0
+  Star 0
+  Fork 0 kraberry/equithon
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
+Branch: Charities_real Find file Copy pathequithon/FeedingAmerica.html
+80bbe23  19 minutes ago
+@KritiRav KritiRav Add files via upload
+1 contributor
+RawBlameHistory
+345 lines (285 sloc)  11.1 KB
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DonAid</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="../vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+   <!-- Theme CSS -->
+    <link href="../footer/footer.css" rel="stylesheet">
+    <link href="../css/navbar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html">DonAid</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <!--<a class="page-scroll" href="#page-top">USA: Charities</a>-->
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="https://secure.feedingamerica.org/site/Donation2?df_id=24970&24970.donation=form1&s_onsite_promo=MainNav_Donate&s_src=W175REFER&s_referrer=https%3A%2F%2Fwww.google.ca%2F&s_subsrc=http%3A%2F%2Fwww.feedingamerica.org%2F%3Freferrer%3Dhttps%3A%2F%2Fwww.google.ca%2F&_ga=2.251449990.145036027.1494085536-1891622145.1494085536&NONCE_TOKEN=0F9C211284140198C78BC540BCEFF624"> DONATE NOW!</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="../contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <head>
+        <style>
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #ffffff;
+  font-size: 0.875em;
+}
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: #ffffff;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #ffffff;
+  font-size: 0.875em;
+}
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: #ffffff;
+}
+input::placeholder, textarea::placeholder {
+  color: #ffffff;
+  font-size: 0.875em;
+}
+input:focus::placeholder, textarea::focus:placeholder {
+  color: #ffffff;
+}
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: #ffffff;
+  font-size: 0.875em;
+}
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: #ffffff;
+}
+/* on hover placeholder */
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: #F4D868;
+  font-size: 0.875em;
+}
+h4.big {
+    line-height: 2.0;
+}
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: #ffffff;
+}
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: #F4D868;
+  font-size: 0.875em;
+}
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: #ffffff;
+}
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #F4D868;
+  font-size: 0.875em;
+}
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: #ffffff;
+}
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #F4D868;
+  font-size: 0.875em;
+}
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: #ffffff;
+}
+h4 {
+    font-family: 'Open Sans';
+    font-size: 1.0em;
+    right: 0;
+    line-height: 75px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+header {
+  position: relative;
+  margin: 100px 0 25px 0;
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 7px;
+}
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+input {
+  font-family: 'Lato', 'Open Sans';
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+
+  background: transparent;
+  outline: none;
+  color: #ffffff;
+
+  border: solid 1px #ffffff;
+  border-bottom: none;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+input:hover {
+  background: #ffffff;
+  color: #F4D868;
+}
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+
+  background: grey;
+  outline: none;
+
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+
+  border: solid 1px #ffffff;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+textarea:hover {
+  background: #ffffff;
+  color: #F4D868;
+}
+body {
+  font-family: 'Helvetica Neue';
+  background-color: black;
+  background: black;
+  color: grey;
+  color: black;
+}
+#submit {
+  width: 470px;
+
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.875em;
+  color: #ffffff;
+
+  outline:none;
+  cursor: pointer;
+
+  border: solid 1px #ffffff;
+  border-top: none;
+}
+#submit:hover {
+  color: #F4D868;
+}
+</style>
+        <header>SALVATION ARMY</header>
+        <html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+</html>
+
+
+        <div class="container text-center">
+            <h4 class="big"><font face="open sans">WHAT IS THE SALVATION ARMY?</font></h4>
+
+            <h4 class="big" style="color:grey"><font face="open sans"> The Salvation Army preaches the gospel of Jesus Christ and seeks to meet the needs of disadvantaged people.
+                </font>
+            </h4>
+            <h4 class="big"><font face="open sans">MANAGEMENT/ ADMINISTRATION</font></h4>
+            <h4 class="big" style="color:grey"><font face="open sans"> 18% of donations go towards administrative costs and 81% of donations go towards charitable donations.
+             </font>
+            </h4>
+            <h4 class="big"><font face="open sans">SCANDALS</font></h4>
+            <h4 class="big"style="color:grey"><font face="open sans">The Salvation Army sold donated items for profit instead of giving them to people in need. </font></h4>
+            </div>
+
+</body>
+</html>
+
+
+</form>
+</head>
+
+<footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <!--<h3>Want to upgrade your existing desktop?</h3>
+                        <a href="upgrades.html" class="btn btn-primary btn-xl page-scroll">Upgrades</a>-->
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>FAQ</h3>
+                        <p><font size="4" face="open sans">Email us your questions at FAQ@DonAid.ca</font></p>
+                        <!--<h3>Find us here!</h3>-->
+                        <!--<ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/rokricomputers/" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li
+                            <li>
+                                <a href="https://twitter.com/rokricomputers" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>-->
+                            <!--li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li-->
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <!--<h4>FAQ</h4>
+                        <h5>Email us your questions at FAQ@rokri.ca</h4>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <p>Copyright &copy; DonAid 2017</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+</html>
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
